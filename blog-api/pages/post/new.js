@@ -1,5 +1,5 @@
 import { withPageAuthRequired } from "@auth0/nextjs-auth0";
-import { AppLayout } from "../../Components/AppLayout";
+import { AppLayout } from "../../Components/AppLayout/AppLayout";
 
 export default function NewPost(props) {
 
