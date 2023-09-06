@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page);
 
   return( <UserProvider>
-    <main className={`${DMSans.variable} ${poppins.variable}`}>
+    <main className={`${DMSans.variable} ${poppins.variable} font-body`}>
     {getLayout(<Component {...pageProps} />, pageProps)}
     </main>
     </UserProvider>
